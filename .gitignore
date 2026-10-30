@@ -1,0 +1,21 @@
+.env
+*.pem
+*.key
+data/
+__pycache__/
+.venv/
+.streamlit/secrets.toml
+
+# Private data and backups
+backup/
+secrets/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+*.py[cod]
+
+# Local environment files
+.env.*
+!.env.example
